@@ -1,0 +1,43 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilos contenedorPrincipal*/
+
+.contenedorPrincipal{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 550px;
+    width: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+}
+
+/*Estilos colores*/
+.color{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos parrafos*/
+
+.color p{
+    margin-top: 15px;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+
+body{
+    color: rgb(34, 31, 31);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(./imagenes/img-pizza4.jpg) no-repeat center/cover;
+}
+
+.contenido{
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    max-width: 900px;
+    width: 80vh;
+    background-color: rgba(255, 255, 255, 0.186);
+}
+
+h1{
+    font-size: 2rem;
+    width: 100%;
+}
+
+.toppings{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: .1em 0;
+}
